@@ -4,7 +4,7 @@ import threading
 import concurrent.futures
 import asyncio
 
-def func1():
+def func1(epoch):
     for i in range(epoch):
         print(f"{i}:aaaaa")
         time.sleep(3)
@@ -112,8 +112,8 @@ def myAsyncio():
 
 epoch = 3
 
-# myThread()
-myThreadPool()
+myThread()
+# myThreadPool()
 # myProcessPool()
 # myAsyncio()
 
