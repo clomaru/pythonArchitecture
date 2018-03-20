@@ -1,3 +1,4 @@
+# https://qiita.com/ogihara/items/1b7f002b7d14a2710bce
 import os
 import threading
 
